@@ -1,1 +1,92 @@
-site_name: My Docs
+site_name: AP Biology Notes
+
+repo_url: https://github.com/Pagius5/AP_Bio
+repo_name: Pagius5/AP Bio
+
+theme:
+  name: material
+  icon:
+    logo: material/leaf
+    repo: fontawesome/brands/github
+  favicon: assets/images/favicon.png
+  palette:
+    # 浅色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white         
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # 深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - abbr
+  - md_in_html
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css
+  - stylesheets/extra.css
+
+validation:
+  nav:
+    omitted_files: ignore
+
+nav:
+  - "Home": index.md
+  - "I. Biochemistry":
+      - "Unit 01 - Chemistry of Life": unit01/chemistry.md
+  - "II. Cell Biology":
+      - "Unit 02 - Cells": unit02/cells.md
+      - "Unit 03 - Cellular Energetics": unit03/energetics.md
+      - "Unit 04 - Cell Communication and Cell Cycle": unit04/communication.md
+  - "III. Genetics":
+      - "Unit 05 - Heredity": unit05/heredity.md
+  - "IV. Molecular Biology":
+      - "Unit 06 - Gene Expression and Regulation": unit06/gene_expression.md
+  - "V. Evolutionary Biology":
+      - "Unit 07 - Natural Selection": unit07/selection.md
+  - "VI. Ecology":
+      - "Unit 08 - Ecology": unit08/ecology.md
+  - "VII. Labs":
+    - "Big Idea 1: Evolution":
+      - "Lab 01 - Artificial Selection": labs/lab01_selection.md
+      - "Lab 02 - Hardy-Weinberg Modeling": labs/lab02_hw_model.md
+      - "Lab 03 - BLAST DNA Analysis": labs/lab03_blast.md
+    - "Big Idea 2: Energy & Homeostasis":
+      - "Lab 04 - Diffusion & Osmosis": labs/lab04_osmosis.md
+      - "Lab 05 - Photosynthesis": labs/lab05_photo.md
+      - "Lab 06 - Cellular Respiration": labs/lab06_respiration.md
+      - "Lab 10 - Energy Dynamics": labs/lab10_energy.md
+      - "Lab 11 - Transpiration": labs/lab11_transpiration.md
+    - "Big Idea 3: Information & Heredity":
+      - "Lab 07 - Cell Division": labs/lab07_cell_div.md
+      - "Lab 08 - Bacterial Transformation": labs/lab08_pGLO.md
+      - "Lab 09 - Restriction Enzyme Analysis": labs/lab09_dna_electrophoresis.md
+    - "Big Idea 4: Systems Interactions":
+      - "Lab 12 - Fruit Fly Behavior": labs/lab12_behavior.md
+      - "Lab 13 - Enzyme Activity": labs/lab13_enzymes.md
+  - "VIII. Misc.":
+    - "Statistical Tests (Chi-Square)": resources/stats.md
+    - "Formula Sheet Guide": resources/formulas.md

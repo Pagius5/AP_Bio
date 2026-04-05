@@ -1,0 +1,4 @@
+/* 隐藏 GitHub 仓库的统计数据（Stars 和 Forks） */
+.md-source__facts {
+    display: none !important;
+}
