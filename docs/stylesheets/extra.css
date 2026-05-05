@@ -2,3 +2,21 @@
 .md-source__facts {
     display: none !important;
 }
+
+.figure-block {
+    text-align: center;
+}
+
+.figure-caption {
+    font-size: 0.9em;
+}
+
+.figure-credit {
+    color: var(--md-default-fg-color--light);
+}
+
+.figure-credit a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.12em;
+}

@@ -3,11 +3,18 @@
 ## I. Intro to Biology
 
 !!! abstract "Keywords"
-    **Biology 生物学** • **Evolution 演化** 
+    | English Term            | 中文翻译 | Definition & Explanation                                                                                                           |
+    | :---------------------- | :------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+    | **Biology**             | 生物学   | The scientific study of life and living organisms, including their structure, function, growth, and evolution.                     |
+    | **Evolution**           | 演化     | The process by which different kinds of living organisms are thought to have developed and diversified from earlier forms.         |
+    | **Systems**             | 系统     | Complex networks of interacting components that work together to perform specific biological functions.                            |
+    | **Information**         | 信息     | Genetic and environmental instructions (such as DNA) used by organisms to direct their life processes and development.             |
+    | **Emergent Properties** | 涌现性质 | New properties that arise with each step upward in the hierarchy of life, resulting from the arrangement and interaction of parts. |
+    | **Macroscopic**         | 宏观     | Relating to the level of biological organization visible to the naked eye, such as organisms and ecosystems.                       |
+    | **Microscopic**         | 微观     | Relating to the level of biological organization that requires a microscope to see, such as cells and organelles.                  |
+    | **Molecular**           | 分子层面 | Relating to the chemical building blocks of life, focusing on molecules like DNA, RNA, and proteins.                               |
 
-    **Systems 系统** • **Information 信息** • **Emergent Properties 涌现性质**
-    
-    **Macroscopic 宏观** • **Microscopic 微观** • **Molecular 分子层面**  
+
 
 ### 1. The Historical Paradox
 Biology is the scientific study of **life and its emergent properties**.
@@ -25,13 +32,36 @@ In the history of science, biology developed in this sequence:
 
 **Macroscopic 宏观 → Microscopic 微观 → Molecular 分子层面**.
 
+```mermaid
+graph LR
+    A[Macroscopic 宏观] --> B[Microscopic 微观] --> C[Molecular 分子层面]
+```
+
 * **Classical Era (Macroscopic):** From Aristotle to Linnaeus to Darwin, early biology was about what you could see. It focused on taxonomy (classifying animals and plants) and the grand theory of **Evolution by Natural Selection**.
 * **19th to Early 20th Century (Microscopic):** With the invention of better microscopes, scientists discovered the **Cell** (Hooke) and the rules of **Genetics** (Mendel's peas and Morgan's fruit flies). The focus zoomed into the cellular level.
 * **Mid-20th Century to Present (Molecular):** In 1953, Watson and Crick uncovered the double-helix structure of DNA. Biology underwent a massive paradigm shift, transforming into a science of chemistry and information processing.
 
 In almost any modern biology course, the curriculum is taught in the exact opposite sequence: 
 
-**Molecules (Unit 1) → Cells (Unit 2) → Organisms & Genetics (Unit 3-6) → Evolution & Ecology (Unit 7-8)**.
+
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px; font-family: sans-serif;">
+  <!-- 第一行 -->
+  <div style="display: flex; align-items: center; gap: 20px;">
+    <div style="background: #92a8d1; border: 2px solid #6b7b9a; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Unit 1: Molecules</div>
+    <div style="color: #999; font-size: 24px;">➔</div>
+    <div style="background: #88b04b; border: 2px solid #5a7232; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Unit 2-4: Cells</div>
+    <!-- <div style="color: #999; font-size: 24px;">➔</div> -->
+  </div>
+
+  <!-- 第二行 -->
+  <div style="display: flex; align-items: center; gap: 20px;">
+    <div style="color: #999; font-size: 24px;">➔</div>
+    <div style="background: #96858f; border: 2px solid #63595e; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Unit 5-6: Genetics</div>
+    <div style="color: #999; font-size: 24px;">➔</div>
+    <div style="background: #6b5b95; border: 2px solid #4a3f67; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Unit 7-8: Evolution & Ecology</div>
+  </div>
+</div>
 
 **Why does the curriculum go in the opposite order of history?**
 

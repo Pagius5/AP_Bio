@@ -12,7 +12,3 @@
         * [**5.3** Mendelian Genetics](./5_3.md)
         * [**5.4** Non-Mendelian Genetics](./5_4.md)
         * [**5.5** Environmental Effects on Phenotype](./5_5.md)
-
-    === "The Chromosomal Basis of Inheritance"
-
-        * [**5.6** Chromosomal Inheritance](./5_6.md)

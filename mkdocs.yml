@@ -5,10 +5,15 @@ repo_name: Pagius5/AP Bio
 
 theme:
   name: material
+  font:
+    text: "Noto Sans SC"
+    code: "JetBrains Mono"
   icon:
     logo: material/leaf
     repo: fontawesome/brands/github
-  favicon: assets/images/favicon.png
+  favicon: assets/favicon.jpg
+  features:
+    - navigation.tabs
   palette:
     # 浅色模式
     - media: "(prefers-color-scheme: light)"
@@ -31,19 +36,25 @@ theme:
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
   - abbr
   - md_in_html
 
 extra_javascript:
+  - javascripts/figure.js
   - javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - javascripts/mermaid.js
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css
@@ -59,7 +70,13 @@ nav:
       - "Unit 01 - Chemistry of Life": unit01/chemistry.md
   - "II. Cell Biology":
       - "Unit 02 - Cells": unit02/cells.md
-      - "Unit 03 - Cellular Energetics": unit03/energetics.md
+      - "Unit 03 - Cellular Energetics":
+        - "An Introduction to Metabolism":
+          - "3.1 Enzymes": unit03/3_1.md
+          - "3.2 Environmental Impacts on Enzyme Function": unit03/3_2.md
+          - "3.3 Cellular Energy": unit03/3_3.md
+        - "3.4 Photosynthesis": unit03/3_4.md
+        - "3.5 Cellular Respiration": unit03/3_5.md
       - "Unit 04 - Cell Communication and Cell Cycle": unit04/communication.md
   - "III. Genetics":
       - "Unit 05 - Heredity": unit05/heredity.md

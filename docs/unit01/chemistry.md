@@ -9,7 +9,8 @@
 
     === "Macromolecules"
 
-        * [**1.3** Introduction to Biological Macromolecules](./1_3.md)
-        * [**1.4** Properties of Biological Macromolecules](./1_4.md)
-        * [**1.5** Structure and Function of Biological Macromolecules](./1_5.md)
+        * [**1.3** Introduction to Macromolecules](./1_3.md)
+        * [**1.4** Carbohydrates](./1_4.md)
+        * [**1.5** Lipids](./1_5.md)
         * [**1.6** Nucleic Acids](./1_6.md)
+        * [**1.7** Proteins](./1_7.md)
