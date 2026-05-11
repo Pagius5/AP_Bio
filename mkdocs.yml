@@ -67,26 +67,92 @@ validation:
 nav:
   - "Home": index.md
   - "I. Biochemistry":
-      - "Unit 01 - Chemistry of Life": unit01/chemistry.md
+    - "Unit 01 - Chemistry of Life":
+      - "Intro": unit01/chemistry.md
+      - "Chemical Basics":
+        - "1.1 Structure of Water and Hydrogen Bonding": unit01/1_1.md
+        - "1.2 Elements of Life": unit01/1_2.md
+      - "Macromolecules":
+        - "1.3 Introduction to Macromolecules": unit01/1_3.md
+        - "1.4 Carbohydrates": unit01/1_4.md
+        - "1.5 Lipids": unit01/1_5.md
+        - "1.6 Nucleic Acids": unit01/1_6.md
+        - "1.7 Proteins": unit01/1_7.md
   - "II. Cell Biology":
-      - "Unit 02 - Cells": unit02/cells.md
+      - "Unit 02 - Cells":
+        - "Intro": unit02/cells.md
+        - "A Tour of the Cell":
+          - "2.1 Cell Structure and Function": unit02/2_1.md
+          - "2.2 Cell Size": unit02/2_2.md
+          - "2.9 Cell Compartmentalization": unit02/2_9.md
+          - "2.10 Origins of Cell Compartmentalization": unit02/2_10.md
+        - "Membrane Structure and Function":
+          - "2.3 Plasma Membranes": unit02/2_3.md
+          - "2.4 Membrane Permeability": unit02/2_4.md
+          - "2.5 Membrane Transport": unit02/2_5.md
+          - "2.6 Facilitated Diffusion": unit02/2_6.md
+          - "2.7 Tonicity and Osmoregulation": unit02/2_7.md
+          - "2.8 Mechanisms of Transport": unit02/2_8.md
       - "Unit 03 - Cellular Energetics":
+        - "Intro": unit03/energetics.md
         - "An Introduction to Metabolism":
           - "3.1 Enzymes": unit03/3_1.md
           - "3.2 Environmental Impacts on Enzyme Function": unit03/3_2.md
           - "3.3 Cellular Energy": unit03/3_3.md
         - "3.4 Photosynthesis": unit03/3_4.md
         - "3.5 Cellular Respiration": unit03/3_5.md
-      - "Unit 04 - Cell Communication and Cell Cycle": unit04/communication.md
+      - "Unit 04 - Cell Communication and Cell Cycle":
+        - "Intro": unit04/communication.md
+        - "Cell Communication": 
+          - "4.1 Cell Communication": unit04/4_1.md
+          - "4.2 Introduction to Signal Transduction": unit04/4_2.md
+          - "4.3 Signal Transduction Pathways": unit04/4_3.md
+          - "4.4 Feedback": unit04/4_4.md
+        - "The Cell Cycle":
+          - "4.5 Cell Cycle": unit04/4_5.md
+          - "4.6 Regulation of Cell Cycle": unit04/4_6.md
   - "III. Genetics":
-      - "Unit 05 - Heredity": unit05/heredity.md
+    - "Unit 05 - Heredity":
+      - "Intro": unit05/heredity.md
+      - "Meiosis and Sexual Life Cycles": 
+        - "5.1 Meiosis": unit05/5_1.md
+        - "5.2 Meiosis and Genetic Diversity": unit05/5_2.md
+      - "Mendel and the Gene Idea":
+        - "5.3 Mendelian Genetics": unit05/5_3.md
+        - "5.4 Non-Mendelian Genetics": unit05/5_4.md
+        - "5.5 Environmental Effects on Phenotype": unit05/5_5.md
   - "IV. Molecular Biology":
-      - "Unit 06 - Gene Expression and Regulation": unit06/gene_expression.md
+    - "Unit 06 - Gene Expression and Regulation":
+      - "Intro": unit06/gene_expression.md
+      - "The Molecular Basis of Inheritance":
+        - "6.1 DNA and RNA Structure": unit06/6_1.md
+        - "6.2 Replication": unit06/6_2.md
+      - "Gene Expression: From Gene to Protein":
+        - "6.3 Transcription and RNA Processing": unit06/6_3.md
+        - "6.4 Translation": unit06/6_4.md
+        - "6.7 Mutations": unit06/6_7.md
+      - "Regulation of Gene Expression":
+        - "6.5 Regulation of Gene Expression": unit06/6_5.md
+        - "6.6 Gene Expression and Cell Specialization": unit06/6_6.md
+      - "Biotechnology":
+        - "6.8 Biotechnology": unit06/6_8.md
   - "V. Evolutionary Biology":
       - "Unit 07 - Natural Selection": unit07/selection.md
   - "VI. Ecology":
-      - "Unit 08 - Ecology": unit08/ecology.md
-  - "VII. Labs":
+    - "Unit 08 - Ecology":
+      - "Intro": unit08/ecology.md
+      - "Organismal Ecology": 
+        - "8.1 Responses to the Environment": unit08/8_1.md
+      - "Population Ecology":
+        - "8.3 Population Ecology": unit08/8_3.md
+        - "8.4 Effect of Density of Populations": unit08/8_4.md
+      - "Community Ecology":
+        - "8.5 Community Ecology": unit08/8_5.md
+        - "8.6 Biodiversity": unit08/8_6.md
+      - "Ecosystems and Conservation":
+        - "8.2 Energy Flow Through Ecosystems": unit08/8_2.md
+        - "8.7 Disruptions to Ecosystems": unit08/8_7.md
+  - "Labs":
     - "Big Idea 1: Evolution":
       - "Lab 01 - Artificial Selection": labs/lab01_selection.md
       - "Lab 02 - Hardy-Weinberg Modeling": labs/lab02_hw_model.md
@@ -104,6 +170,6 @@ nav:
     - "Big Idea 4: Systems Interactions":
       - "Lab 12 - Fruit Fly Behavior": labs/lab12_behavior.md
       - "Lab 13 - Enzyme Activity": labs/lab13_enzymes.md
-  - "VIII. Misc.":
+  - "Misc.":
     - "Statistical Tests (Chi-Square)": resources/stats.md
     - "Formula Sheet Guide": resources/formulas.md

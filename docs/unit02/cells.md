@@ -4,7 +4,7 @@
 
     === "A Tour of the Cell"
 
-        * [**2.1** Cell Structure and Function](./2_2.md)
+        * [**2.1** Cell Structure and Function](./2_1.md)
         * [**2.2** Cell Size](./2_2.md)
         * [**2.9** Cell Compartmentalization](./2_9.md)
         * [**2.10** Origins of Cell Compartmentalization](./2_10.md)
