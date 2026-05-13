@@ -4,8 +4,8 @@ window.MathJax = {
     },
     tex: {
         packages: { "[+]": ["mhchem"] },
-        inlineMath: [["\\(", "\\)"]],
-        displayMath: [["\\[", "\\]"]],
+        inlineMath: [["\\(", "\\)"], ["$", "$"]],
+        displayMath: [["\\[", "\\]"], ["$$", "$$"]],
         processEscapes: true,
         processEnvironments: true
     },

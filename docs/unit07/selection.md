@@ -18,14 +18,14 @@
 
         * [**7.8** Continuing Evolution](./7_8.md)
         * [**7.10** Speciation](./7_10.md)
-        
-    === "The History of Life on Earth"
-
-        * [**7.6** Evidence of Evolution](./7_6.md)
-        * [**7.11** Extinction](./7_11.md)
-        * [**7.13** Origin of Life on Earth](./7_13.md)
 
     === "Phylogeny and the Tree of Life"
 
+        * [**7.6** Evidence of Evolution](./7_6.md)
         * [**7.7** Common Ancestry](./7_7.md)
         * [**7.9** Phylogeny](./7_9.md)
+    
+    === "The History of Life on Earth"
+
+        * [**7.11** Extinction](./7_11.md)
+        * [**7.13** Origin of Life on Earth](./7_13.md)
